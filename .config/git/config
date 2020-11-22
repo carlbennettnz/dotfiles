@@ -1,0 +1,18 @@
+[user]
+  email = carl@sharesies.co.nz
+  name = Carl Bennett
+[push]
+  default = current
+[pull]
+  rebase = true
+[core]
+  editor = vim
+[log]
+  date = local
+[alias]
+  s = status
+  co = checkout
+  sw = switch
+  pl = pull
+  ph = push
+
