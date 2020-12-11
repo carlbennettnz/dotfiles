@@ -103,8 +103,9 @@ alias gtb='cd ~/src/sharesies/backend-mvp && source venv/bin/activate && export 
 alias gtf='cd ~/src/sharesies/frontend-mvp && export ENVIRONMENT=development'
 alias gtd='cd ~/src/sharesies/distill'
 
-alias alembic-up='alembic upgrade head'
-alias alembic-down='alembic downgrade -1'
+alias alu='alembic upgrade head'
+alias ald='alembic downgrade -1'
+alias alh='alembic history | head'
 
 alias delete-merged='git branch --merged | egrep -v "^\*|master" | xargs git branch -d'
 
