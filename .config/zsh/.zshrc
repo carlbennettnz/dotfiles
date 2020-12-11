@@ -118,3 +118,5 @@ export PATH=$PATH:"~/bin"
 
 # added by pipx (https://github.com/pipxproject/pipx)
 export PATH="/home/carl/.local/bin:$PATH"
+
+source ~/src/dotfiles/bin/.app-complete.sh
